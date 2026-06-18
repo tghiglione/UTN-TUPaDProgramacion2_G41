@@ -1,8 +1,13 @@
 
 /*
-
 !/src/
+!/nbproject/
+!/build.xml
+!/manifest.mf
 !/README.md
 !/.gitignore
+
+nbproject/private/
+build/
 
 src/**/*.class
