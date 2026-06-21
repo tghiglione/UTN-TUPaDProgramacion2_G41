@@ -131,7 +131,9 @@ public class MenuPrincipal {
             }
         }
     }
+    
 
+    // Opcion 1
     private void listarCategorias() {
         System.out.println("Listando categorias: ");
         List<Categoria> categorias = categoriaService.listar();
@@ -143,7 +145,8 @@ public class MenuPrincipal {
             }
         }
     }
-
+    
+    // Opcion 2
     private void crearCategoria() {
         try {
             System.out.println("Crear categoria.");
@@ -158,6 +161,8 @@ public class MenuPrincipal {
         }
     }
 
+    
+    // Opcion 3
     private void editarCategoria() {
         try {
             System.out.println("Editar categoria.");
@@ -180,6 +185,8 @@ public class MenuPrincipal {
         }
     }
 
+    
+    // Opcion 4
     private void eliminarCategoria() {
         try {
             System.out.println("Eliminar categoria.");
@@ -229,6 +236,7 @@ public class MenuPrincipal {
         }
     }
 
+    // PRODUCTOS OPCION 1
     private void listarProductos() {
         System.out.println("Listando productos: ");
         List<Producto> productos = productoService.listar();
@@ -241,6 +249,8 @@ public class MenuPrincipal {
         }
     }
 
+    
+    // PRODUCTOS OPCION 2
     private void crearProducto() {
         try {
             System.out.println("Crear producto.");
@@ -267,7 +277,8 @@ public class MenuPrincipal {
             System.out.println("Error: " + e.getMessage());
         }
     }
-
+    
+    // PRODUCTOS OPCION 3
     private void editarProducto() {
         try {
             System.out.println("Editar producto.");
@@ -302,6 +313,8 @@ public class MenuPrincipal {
         }
     }
 
+    
+    // PRODUCTOS OPCION 4
     private void eliminarProducto() {
         try {
             System.out.println("Eliminar producto.");
@@ -351,6 +364,7 @@ public class MenuPrincipal {
         }
     }
 
+    //USUARIOS OPCION 1
     private void listarUsuarios() {
         System.out.println("Listando usuarios: ");
         List<Usuario> usuarios = usuarioService.listar();
@@ -363,6 +377,7 @@ public class MenuPrincipal {
         }
     }
 
+    //USUARIOS OPCION 2
     private void crearUsuario() {
         try {
             System.out.println("Crear usuario.");
@@ -389,6 +404,7 @@ public class MenuPrincipal {
         }
     }
 
+    //USUARIOS OPCION 3
     private void editarUsuario() {
         try {
             System.out.println("Editar usuario.");
@@ -417,6 +433,7 @@ public class MenuPrincipal {
         }
     }
 
+    //USUARIOS OPCION 4
     private void eliminarUsuario() {
         try {
             System.out.println("Eliminar usuario.");
@@ -466,6 +483,7 @@ public class MenuPrincipal {
         }
     }
 
+    // PEDIDOS OPCION 1
     private void listarPedidos() {
         System.out.println("Listando pedidos: ");
         List<Pedido> pedidos = pedidoService.listar();
@@ -478,6 +496,7 @@ public class MenuPrincipal {
         }
     }
 
+    // PEDIDOS OPCION 2
     private void crearPedido() {
         try {
             System.out.println("Crear pedido.");
@@ -523,6 +542,7 @@ public class MenuPrincipal {
         }
     }
 
+    // PEDIDOS OPCION 3
     private void actualizarPedido() {
         try {
             System.out.println("Actualizar estado/forma de pago del pedido.");
@@ -560,6 +580,7 @@ public class MenuPrincipal {
         }
     }
 
+    // PEDIDOS OPCION 4
     private void eliminarPedido() {
         try {
             System.out.println("Eliminar pedido.");
