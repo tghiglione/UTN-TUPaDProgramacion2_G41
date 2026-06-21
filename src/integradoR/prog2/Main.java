@@ -5,8 +5,7 @@ package integradoR.prog2;
  * MenuPrincipal. no contiene reglas de negocio.
  */
 public class Main {
-
     public static void main(String[] args) {
-        
+        new MenuPrincipal().iniciar();
     }
 }
