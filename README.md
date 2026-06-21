@@ -34,4 +34,4 @@ de negocio, mantienen las colecciones y los contadores de id) y **View/Main**
 ## Enlaces de la entrega
 
 - Video explicativo (10 a 15 min): _PENDIENTE - completar con el link publico_
-- Documentacion en PDF: _PENDIENTE - completar con el link o adjuntar el PDF en la raiz_
+- Documentacion en PDF: en este mismo repositorio.
